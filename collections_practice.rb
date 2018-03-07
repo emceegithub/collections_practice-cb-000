@@ -50,4 +50,21 @@ def find_a(array)
   return collector
 end
 
+def sum_array(array)
+  sum = 0
+  array.each do |element|
+    sum = sum + element
+  end 
+  return sum
+end
+
+
+
+
+
+
+
+
+
+
 
