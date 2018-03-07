@@ -38,5 +38,16 @@ def kesha_maker(array)
   return collector
 end
 
+def find_a(array)
+  collector = []
+  array.each do |element|
+    if element.start_with?("a")
+      collector << element
+    else
+      # do nothing
+    end
+  end
+  return collector
+end
 
 
