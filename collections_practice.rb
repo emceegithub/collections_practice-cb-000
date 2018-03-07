@@ -29,9 +29,3 @@ end
 def reverse_array(array)
   return array.reverse
 end
-
-string5 = "abcdefghijk"
-
-
-
-string5 = string5[0..1] + "z" + string5[3..string5.length-1]
