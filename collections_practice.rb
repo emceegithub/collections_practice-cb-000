@@ -58,7 +58,17 @@ def sum_array(array)
   return sum
 end
 
-
+def add_s(array)
+  collector = []
+  array.each_with_index do |element, index|
+    if element == 1
+      collector << element
+    else
+      collector << element + "s"
+    end
+  end
+  return collector
+end
 
 
 
