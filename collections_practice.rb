@@ -29,3 +29,14 @@ end
 def reverse_array(array)
   return array.reverse
 end
+
+def kesha_maker(array)
+  collector = []
+  array.each do |element|
+    collector << element[0..1] + "$" + element[3..element.length-1]
+  end
+  return collector
+end
+
+
+
